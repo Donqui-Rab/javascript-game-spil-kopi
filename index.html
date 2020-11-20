@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cookie_monster</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="screen">
+        <div id="game" class="hide">
+
+            <div id="game_background"></div>
+            <div id="game_elements">
+
+                <div id="game_midground"></div>
+
+                <div id="cookieman_container0" class="">
+                    <div id="cookieman_sprite0"></div>
+                </div>
+
+                <div id="cookieman_container1" class="">
+                    <div id="cookieman_sprite1"></div>
+                </div>
+
+                <div id="cookieman_container2" class="">
+                    <div id="cookieman_sprite2"></div>
+                </div>
+
+                <div id="cookieman_container3" class="">
+                    <div id="cookieman_sprite3"></div>
+                </div>
+
+                <div id="cookieman_container4" class="">
+                    <div id="cookieman_sprite4"></div>
+                </div>
+
+                <div id="cookieman_container5" class="">
+                    <div id="cookieman_sprite5"></div>
+                </div>
+
+                <div id="cookieman_container6" class="">
+                    <div id="cookieman_sprite6"></div>
+                </div>
+
+                <div id="cookieman_container7" class="">
+                    <div id="cookieman_sprite7"></div>
+                </div>
+
+                <div id="cookieman_container8" class="">
+                    <div id="cookieman_sprite8"></div>
+                </div>
+
+                <div id="cupcake_container9" class="">
+                    <div id="cupcake_sprite9"></div>
+                </div>
+
+                <div id="cupcake_container10" class="">
+                    <div id="cupcake_sprite10"></div>
+                </div>
+
+                <div id="poff_container">
+                    <div id="poff_sprite" class="hide"></div>
+                </div>
+
+                <div id="rainbow_container">
+                    <div id="rainbow_sprite"></div>
+                </div>
+                <div id="lollipop_container">
+                    <div id="lollipop_sprite"></div>
+                </div>
+                <div id="killscore_container">
+                    <div id="killscore_sprite"></div>
+                </div> 
+            </div>
+            <div id="game_foreground"></div>
+
+            <div id="game_ui">
+
+                <div id="killscore_board">
+                    <div id="killscore"></div>
+                </div>
+
+                <div id="points">
+                    0
+                </div>
+
+                <div id="energy_board">
+                    <div id="liv">
+                        <div id="heart1" class="heart"></div>
+                        <div id="heart2" class="heart"></div>
+                        <div id="heart3" class="heart"></div>
+                    </div>
+                </div>
+
+                <div id="time_board">
+                    <div id="time_container">
+                        <div id="time_sprite"></div>
+                    </div>
+                </div>
+                <div id="time_border"></div>
+            </div>
+        </div>
+
+        <div id="titlescreen" class="hide"></div>
+
+        <div id="howtoplay_board" class="hide">
+            <div id="play_board2" class="button hide">
+                <div id="play"></div>
+            </div>
+        </div>
+
+        <div id="blurry" class="hide"></div>
+
+        <div id="play_board" class="button">
+            <div id="play"></div>
+        </div>
+
+        <div id="game_over" class="hide">
+            <div id="refresh_board" class="button hide">
+                <div id="refresh"></div>
+            </div>
+        </div>
+
+        <div id="level_complete" class="hide">
+            <div id="refresh_board2" class="button hide">
+                <div id="refresh"></div>
+            </div>
+            <div id="points1">
+                0
+            </div>
+        </div>
+    </div>
+    <audio  src="sound/creepy.mp3"  id="creepybackground_sound" loop></audio>
+    <audio src="sound/cookieman_kill.mp3" id=cookie_kill></audio>
+    <audio src="sound/muffinman_dead.mp3" id=muffin_dead></audio>
+    <audio src="sound/poofsound.mp3" id=poof_sound></audio>
+    <audio src="sound/victory.mp3" id=victory_sound></audio>
+    <audio src="sound/lose.mp3" id=lose_sound></audio>
+    <audio src="sound/click.mp3" id=click_sound></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
