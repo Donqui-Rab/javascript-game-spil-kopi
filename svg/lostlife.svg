@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="70" viewBox="0 0 75 70">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+        opacity: 0.75;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="74.22" y1="64.9" x2="26.07" y2="8.13" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000003"/>
+      <stop offset="0.12" stop-color="#09090c"/>
+      <stop offset="0.33" stop-color="#222224"/>
+      <stop offset="0.59" stop-color="#4a4a4c"/>
+      <stop offset="0.89" stop-color="#828282"/>
+      <stop offset="1" stop-color="#999"/>
+    </linearGradient>
+  </defs>
+  <g id="text">
+    <g>
+      <path class="cls-1" d="M37.53,67.87,9,39.37C-14.4,15.94,14.1-12.55,37.53,10.88,60.86-12.46,89.36,16,66,39.37Z"/>
+      <path class="cls-2" d="M18.51,8.11S9,7.55,6.56,18.87"/>
+    </g>
+  </g>
+</svg>
